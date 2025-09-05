@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- Header and Navigation -->
+  <header id="home">
+    <h1>Day 1 - My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" title="Go to Home">Home</a></li>
+        <li><a href="#about-me" title="Learn more about me">About</a></li>
+        <li><a href="#blog" title="Read my blog posts">Blog</a></li>
+        <li><a href="#contact" title="Contact me">Contact</a></li>
+      </ul>
+    </nav>
+    <p>This is the <strong>first HTML lab</strong>.</p>
+    <p>
+      The main objective is to <strong>create an HTML page</strong> that
+      displays a simple <strong>user story</strong> in a clear and structured
+      way.
+    </p>
+  </header>
+
+  <main>
+    <!-- User Story Section -->
+    <section>
+      <h2>What is a User Story?</h2>
+      <p>
+        A <strong>user story</strong> is a short and simple description of a
+        feature told from the perspective of the end-user or customer.<br />
+        It usually follows this format:
+      </p>
+      <em>As a [type of user], I want [some goal] so that [some reason].</em>
+
+      <h3>What I Will Do in This Lab:</h3>
+      <ul>
+        <li>Learn the <strong>basic structure of an HTML document</strong>.</li>
+        <li>
+          Practice using <strong>headings, paragraphs, and lists</strong>.
+        </li>
+        <li>
+          Represent the <strong>user story</strong> clearly within the HTML
+          page.
+        </li>
+      </ul>
+
+      <h4>Expected Output:</h4>
+      <ul>
+        <li>
+          A clean, well-structured HTML file that contains:
+          <ul>
+            <li>A <strong>title</strong></li>
+            <li>A <strong>heading</strong></li>
+            <li>
+              A section displaying the <strong>user story</strong> in a readable
+              format
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h5>Course Elements:</h5>
+      <ol>
+        <li>
+          Intro to HTML
+          <ul>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Documentation on MDN</a>
+            </li>
+          </ul>
+        </li>
+        <li>CSS</li>
+        <li>Intro to JS Framework</li>
+      </ol>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <img src="MohamedSaeed.jpeg" alt="image for Mohamed Saeed" title="This is me!" width="200" />
+      <p>
+        Hello! My name is Mohamed Saeed, and I'm passionate about web
+        development and technology.<br />
+        I enjoy learning new programming languages, building user-friendly
+        websites, and solving complex problems.<br />
+        My goal is to become a full-stack developer and create impactful digital
+        experiences.
+      </p>
+
+      <h3>My Hobbies</h3>
+      <ul>
+        <li>Coding and exploring new technologies</li>
+        <li>Reading tech blogs and books</li>
+        <li>Playing Chess</li>
+      </ul>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+      <h2>Blog</h2>
+
+      <article>
+        <h3>HTML Basics:</h3>
+        <p>
+          HTML (HyperText Markup Language) is the foundation of web development.
+          It structures the content of a webpage using elements like headings,
+          paragraphs, and links.
+        </p>
+        <p>
+          As a <strong>reader</strong>, you want structured and readable
+          content. Here are the basic steps to create your first HTML page:
+        </p>
+        <ol>
+          <li>Start with &lt;!DOCTYPE html&gt;</li>
+          <li>Add &lt;html&gt; and &lt;head&gt;</li>
+          <li>Include &lt;title&gt; for the page name</li>
+          <li>Add &lt;body&gt; for your content</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>
+          Semantic HTML uses elements that clearly describe their meaning.<br />
+          Examples include &lt;header&gt;, &lt;section&gt;, &lt;article&gt;, and
+          &lt;footer&gt;.
+        </p>
+
+        <p>Benefits of semantic HTML:</p>
+        <ul>
+          <li>Improves accessibility for screen readers</li>
+          <li>Better SEO (Search Engine Optimization)</li>
+          <li>Makes your code easier to maintain and understand</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Adding Media: Images, Video, and Audio</h3>
+        <p>
+          Media elements make your web pages more engaging. HTML provides
+          easy-to-use tags for this purpose:
+        </p>
+        <ul>
+          <li>&lt;img&gt; for images (with alt text for accessibility)</li>
+          <li>&lt;video&gt; and &lt;audio&gt; for media files</li>
+          <li>&lt;iframe&gt; for embedding YouTube videos</li>
+        </ul>
+        <p>
+          Always provide descriptive attributes like <strong>alt</strong> for
+          images and <strong>controls</strong> for audio/video elements.
+        </p>
+      </article>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h2>Watch This Video</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6QAELgirvjs?si=nuzRigMbFw7YQCCs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Schedule Table Section-->
+    <section>
+      <h2>Schedule Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Day/Period</th>
+            <th>I<br />9:30-10:20</th>
+            <th>II<br />10:20-11:10</th>
+            <th>III<br />11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>IV<br />12:40-1:30</th>
+            <th>V<br />1:30-2:20</th>
+            <th>VI<br />2:20-3:10</th>
+            <th>VII<br />3:10-4:00</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Monday</b></td>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td rowspan="6"><b>LUNCH</b></td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+          </tr>
+          <tr>
+            <td><b>Tuesday</b></td>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORTS</td>
+          </tr>
+          <tr>
+            <td><b>Wednesday</b></td>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+          </tr>
+          <tr>
+            <td><b>Thursday</b></td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+          </tr>
+          <tr>
+            <td><b>Friday</b></td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+          </tr>
+          <tr>
+            <td><b>Saturday</b></td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORTS</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        You can reach me via email:
+        <a href="mailto:msaidg54@gmail.com" title="Send me an email">msaidg54@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mohamed Saeed. All rights reserved.
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,509 @@
+# HTML COURSE - STUDENT SLIDES
+## Complete HTML Learning Guide
+
+---
+
+## SLIDE 1: WELCOME TO HTML
+**What You'll Learn:**
+- HTML fundamentals and document structure
+- Text formatting and semantic elements
+- Links, navigation, and multimedia
+- Lists, tables, and forms
+- Best practices for web development
+
+**Course Goals:**
+- Build complete HTML websites
+- Understand web development fundamentals
+- Create accessible, well-structured content
+- Prepare for CSS and JavaScript learning
+
+---
+
+## SLIDE 2: WHAT IS HTML?
+**HTML = HyperText Markup Language**
+
+**Key Points:**
+- HTML is NOT a programming language
+- HTML is a markup language that structures content
+- It tells browsers how to organize and display information
+- Every website uses HTML as its foundation
+
+**Think of HTML as:**
+- A blueprint for a house
+- The skeleton of a webpage
+- Instructions for the browser
+
+---
+
+## SLIDE 3: HTML DOCUMENT STRUCTURE
+**Every HTML document has this basic structure:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <!-- Your content goes here -->
+</body>
+</html>
+```
+
+**What each part does:**
+- `<!DOCTYPE html>` - Tells browser this is HTML5
+- `<html>` - Contains everything
+- `<head>` - Contains page information (not visible)
+- `<body>` - Contains visible content
+
+---
+
+## SLIDE 4: HTML ELEMENTS AND TAGS
+**HTML uses tags to mark up content:**
+
+```html
+<tagname>Content goes here</tagname>
+```
+
+**Examples:**
+- `<h1>This is a heading</h1>`
+- `<p>This is a paragraph</p>`
+- `<strong>This is bold text</strong>`
+
+**Self-closing tags:**
+- `<img src="image.jpg" alt="Description">`
+- `<br>` (line break)
+- `<hr>` (horizontal rule)
+
+---
+
+## SLIDE 5: HEADINGS
+**Headings create document hierarchy:**
+
+```html
+<h1>Main Title (use only once per page)</h1>
+<h2>Section Heading</h2>
+<h3>Subsection Heading</h3>
+<h4>Smaller Heading</h4>
+<h5>Even Smaller</h5>
+<h6>Smallest Heading</h6>
+```
+
+**Important Rules:**
+- Use `<h1>` only once per page
+- Don't skip heading levels (h1 → h3 is wrong)
+- Use headings for structure, not styling
+
+---
+
+## SLIDE 6: PARAGRAPHS AND TEXT
+**Paragraphs group related content:**
+
+```html
+<p>This is a paragraph. It automatically adds spacing.</p>
+<p>This is another paragraph with more content.</p>
+```
+
+**Text formatting:**
+```html
+<strong>Bold text (important)</strong>
+<em>Italic text (emphasis)</em>
+<mark>Highlighted text</mark>
+<small>Smaller text</small>
+```
+
+---
+
+## SLIDE 7: SEMANTIC VS PRESENTATIONAL TAGS
+**Use semantic tags (they have meaning):**
+- `<strong>` - Important text
+- `<em>` - Emphasized text
+- `<mark>` - Highlighted text
+
+**Avoid presentational tags:**
+- `<b>` - Just bold (no meaning)
+- `<i>` - Just italic (no meaning)
+- `<u>` - Just underlined (no meaning)
+
+**Why semantic tags matter:**
+- Screen readers understand them
+- Search engines prefer them
+- Better for accessibility
+
+---
+
+## SLIDE 8: HTML ATTRIBUTES
+**Attributes provide additional information:**
+
+```html
+<element attribute="value">
+```
+
+**Common attributes:**
+- `id="unique-name"` - Unique identifier
+- `class="reusable-name"` - Reusable identifier
+- `title="tooltip text"` - Hover information
+- `style="color: red;"` - Inline styling
+
+**Examples:**
+```html
+<h1 id="main-title">Welcome</h1>
+<p class="important">Important text</p>
+<img src="photo.jpg" alt="Description" title="Extra info">
+```
+
+---
+
+## SLIDE 9: LINKS - THE HEART OF THE WEB
+**Links connect everything on the web:**
+
+```html
+<a href="destination">Link text</a>
+```
+
+**Types of links:**
+- **Internal:** `<a href="about.html">About</a>`
+- **External:** `<a href="https://google.com">Google</a>`
+- **Email:** `<a href="mailto:email@example.com">Email us</a>`
+- **Phone:** `<a href="tel:+1234567890">Call us</a>`
+- **Page section:** `<a href="#section1">Go to section</a>`
+
+---
+
+## SLIDE 10: LINK ATTRIBUTES
+**Target attribute controls where links open:**
+
+```html
+<a href="https://example.com" target="_blank">Opens in new tab</a>
+```
+
+**Target values:**
+- `_blank` - New tab/window
+- `_self` - Same tab (default)
+- `_top` - Full browser window
+
+**Best practice:** Use `target="_blank"` sparingly
+
+---
+
+## SLIDE 11: UNORDERED LISTS
+**Bullet points for related items:**
+
+```html
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ul>
+```
+
+**Common uses:**
+- Navigation menus
+- Feature lists
+- Shopping lists
+- Any group of related items
+
+---
+
+## SLIDE 12: ORDERED LISTS
+**Numbered items for sequential information:**
+
+```html
+<ol>
+    <li>First step</li>
+    <li>Second step</li>
+    <li>Third step</li>
+</ol>
+```
+
+**Common uses:**
+- Step-by-step instructions
+- Rankings
+- Procedures
+- Any ordered sequence
+
+---
+
+## SLIDE 13: DESCRIPTION LISTS
+**Term-description pairs:**
+
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+```
+
+**Common uses:**
+- Glossaries
+- FAQs
+- Definitions
+- Metadata
+
+---
+
+## SLIDE 14: NESTED LISTS
+**Lists can contain other lists:**
+
+```html
+<ul>
+    <li>Fruits
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Carrots</li>
+            <li>Broccoli</li>
+        </ul>
+    </li>
+</ul>
+```
+
+**Creates hierarchical structure**
+
+---
+
+## SLIDE 15: IMAGES
+**Add images to your pages:**
+
+```html
+<img src="image.jpg" alt="Description of image">
+```
+
+**Essential attributes:**
+- `src` - Image source (file path or URL)
+- `alt` - Alternative text (required for accessibility)
+
+**Additional attributes:**
+- `width="300"` - Set width in pixels
+- `height="200"` - Set height in pixels
+- `title="Extra info"` - Hover tooltip
+
+---
+
+## SLIDE 16: IMAGE BEST PRACTICES
+**Always include alt text:**
+```html
+<!-- Good -->
+<img src="cat.jpg" alt="A fluffy orange cat sitting on a windowsill">
+
+<!-- Bad -->
+<img src="cat.jpg" alt="cat">
+```
+
+**Alt text should:**
+- Describe the image
+- Be concise but informative
+- Be empty (`alt=""`) for decorative images
+
+---
+
+## SLIDE 17: AUDIO
+**Embed audio files:**
+
+```html
+<audio controls src="music.mp3">
+    Your browser doesn't support audio.
+</audio>
+```
+
+**Attributes:**
+- `controls` - Shows play/pause/volume controls
+- `autoplay` - Starts automatically (not recommended)
+- `loop` - Repeats when finished
+- `preload` - Controls preloading
+
+---
+
+## SLIDE 18: VIDEO
+**Embed video files:**
+
+```html
+<video controls width="400" poster="thumbnail.jpg">
+    <source src="video.mp4" type="video/mp4">
+    Your browser doesn't support video.
+</video>
+```
+
+**Attributes:**
+- `controls` - Shows video controls
+- `poster` - Image shown before video plays
+- `width` and `height` - Video dimensions
+- `autoplay` - Starts automatically (not recommended)
+
+---
+
+## SLIDE 19: IFRAMES
+**Embed external content:**
+
+```html
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+        width="560" height="315" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+```
+
+**Common uses:**
+- YouTube videos
+- Google Maps
+- Social media posts
+- External websites
+
+---
+
+## SLIDE 20: TABLES - BASIC STRUCTURE
+**Organize data in rows and columns:**
+
+```html
+<table border="1">
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+    </tr>
+    <tr>
+        <td>Cell 3</td>
+        <td>Cell 4</td>
+    </tr>
+</table>
+```
+
+**Elements:**
+- `<table>` - Container
+- `<tr>` - Table row
+- `<td>` - Table data cell
+- `<th>` - Table header cell
+
+---
+
+## SLIDE 21: TABLES WITH HEADERS
+**Add headers to your tables:**
+
+```html
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>New York</td>
+    </tr>
+</table>
+```
+
+**Headers are bold and centered by default**
+
+---
+
+## SLIDE 22: TABLE SECTIONS
+**Organize tables with sections:**
+
+```html
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>25</td>
+        </tr>
+    </tfoot>
+</table>
+```
+
+**Sections:**
+- `<thead>` - Header section
+- `<tbody>` - Main data
+- `<tfoot>` - Footer section
+
+---
+
+## SLIDE 23: MERGING CELLS
+**Combine cells with colspan and rowspan:**
+
+```html
+<table border="1">
+    <tr>
+        <th colspan="2">Personal Information</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>John Doe</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Contact</td>
+        <td>Email: john@example.com</td>
+    </tr>
+    <tr>
+        <td>Phone: 555-1234</td>
+    </tr>
+</table>
+```
+
+**Attributes:**
+- `colspan="2"` - Span 2 columns
+- `rowspan="2"` - Span 2 rows
+
+---
+
+## SLIDE 24: HTML COMMENTS
+**Add notes that don't appear in browser:**
+
+```html
+<!-- This is a comment -->
+<p>This text is visible</p>
+
+<!-- 
+    This is a multi-line comment
+    explaining complex code
+-->
+```
+
+**Uses:**
+- Document your code
+- Explain complex sections
+- Temporarily hide code
+- Leave notes for other developers
+
+---
+
+## SLIDE 25: ACCESSIBILITY BASICS
+**Make your HTML accessible to everyone:**
+
+**Headings:**
+- Use proper heading hierarchy (h1 → h2 → h3)
+- Don't skip levels
+
+**Images:**
+- Always include meaningful alt text
+- Describe what the image shows
+
+**Links:**
+- Use descriptive link text
+- Don't use "click here" or "read more"
+
+**Tables:**
+- Use headers for data tables
+- Include scope attributes
+
+---
+
+
