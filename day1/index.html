@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Mohamed Saeed — aspiring full-stack developer. Projects, blog posts and contact information." />
+  <meta name="author" content="Mohamed Saeed" />
+  <title>Mohamed Saeed — Portfolio</title>
+  <style>
+    :root {
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      color: #222;
+      line-height: 1.5
+    }
+
+    body {
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 0 16px
+    }
+
+    header {
+      border-bottom: 1px solid #e6e6e6;
+      padding-bottom: 12px;
+      margin-bottom: 18px
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 12px;
+      margin: 8px 0
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0366d6
+    }
+
+    main section {
+      margin: 18px 0;
+      padding: 12px;
+      border-radius: 6px;
+      background: #fafafa;
+      border: 1px solid #f0f0f0
+    }
+
+    .profile {
+      display: flex;
+      gap: 16px;
+      align-items: center
+    }
+
+    .profile img {
+      border-radius: 6px;
+      max-width: 200px;
+      height: auto;
+      display: block
+    }
+
+    footer {
+      border-top: 1px solid #e6e6e6;
+      padding-top: 12px;
+      margin-top: 18px;
+      font-size: 0.9rem;
+      color: #555
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px
+    }
+
+    th,
+    td {
+      padding: 6px 8px;
+      border: 1px solid #ddd;
+      text-align: center
+    }
+
+    .highlight {
+      font-weight: 600;
+      background: #f7faff
+    }
+
+    .special {
+      background: #fff7e6
+    }
+  </style>
+</head>
+
+<body>
+  <header id="home" aria-label="Main header">
+    <h1>Mohamed Saeed — Portfolio</h1>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home" title="Go to Home">Home</a></li>
+        <li><a href="#about-me" title="Learn more about me">About</a></li>
+        <li><a href="#blog" title="Read my blog posts">Blog</a></li>
+        <li><a href="#contact" title="Contact me">Contact</a></li>
+      </ul>
+    </nav>
+    <p>This is the first HTML lab showcasing a concise user story and portfolio information.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="user-story">
+      <h2 id="user-story">User Story</h2>
+      <p>A <strong>user story</strong> is a short description of a feature from the user's perspective.</p>
+      <p><em>As a [type of user], I want [some goal] so that [some reason].</em></p>
+
+      <h3>This Lab Will Cover</h3>
+      <ul>
+        <li>HTML document structure</li>
+        <li>Headings, paragraphs, and lists</li>
+        <li>Representing a user story clearly in HTML</li>
+      </ul>
+    </section>
+
+    <section id="about-me" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="profile">
+        <figure>
+          <img src="mohamed-saeed.jpg" alt="Portrait of Mohamed Saeed — aspiring full‑stack developer"
+            title="Mohamed Saeed">
+          <figcaption>Mohamed Saeed — aspiring full-stack developer</figcaption>
+        </figure>
+        <div>
+          <p>Hello! I'm Mohamed Saeed. I enjoy learning new web technologies, building user-friendly websites, and
+            solving problems. My goal is to become a full-stack developer and deliver impactful digital experiences.</p>
+          <h4>Hobbies</h4>
+          <ul>
+            <li>Coding and exploring new technologies</li>
+            <li>Reading tech blogs and books</li>
+            <li>Playing chess</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" aria-labelledby="blog-heading">
+      <h2 id="blog-heading">Blog</h2>
+
+      <article>
+        <h3>HTML Basics</h3>
+        <p>HTML structures the content of web pages using semantic elements like headings, paragraphs, lists, and
+          sections.</p>
+        <ol>
+          <li>Start with &lt;!DOCTYPE html&gt;</li>
+          <li>Add &lt;html&gt; and &lt;head&gt;</li>
+          <li>Include &lt;title&gt; for the page name</li>
+          <li>Add &lt;body&gt; for your content</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>Semantic elements improve accessibility, SEO, and maintainability.</p>
+      </article>
+
+      <article>
+        <h3>Adding Media</h3>
+        <p>Use descriptive alt text for images and controls for media elements.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="video-heading">
+      <h2 id="video-heading">Featured Video</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6QAELgirvjs?si=nuzRigMbFw7YQCCs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section aria-labelledby="schedule-heading">
+      <h2 id="schedule-heading">Weekly Schedule</h2>
+      <table>
+        <tr>
+          <th>Day/Period</th>
+          <th>I<br />9:30-10:20</th>
+          <th>II<br />10:20-11:10</th>
+          <th>III<br />11:10-12:00</th>
+          <th>12:00-12:40</th>
+          <th>IV<br />12:40-1:30</th>
+          <th>V<br />1:30-2:20</th>
+          <th>VI<br />2:20-3:10</th>
+          <th>VII<br />3:10-4:00</th>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Monday</b></td>
+          <td>Eng</td>
+          <td>Mat</td>
+          <td>Che</td>
+          <td rowspan="6" class="special"><b>LUNCH</b></td>
+          <td colspan="3" class="special">LAB</td>
+          <td>Phy</td>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Tuesday</b></td>
+          <td colspan="3" class="special">LAB</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td>Mat</td>
+          <td class="special">SPORTS</td>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Wednesday</b></td>
+          <td>Mat</td>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Thursday</b></td>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td colspan="3" class="special">LAB</td>
+          <td>Mat</td>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Friday</b></td>
+          <td colspan="3" class="special">LAB</td>
+          <td>Mat</td>
+          <td>Che</td>
+          <td>Eng</td>
+          <td>Phy</td>
+        </tr>
+        <tr>
+          <td class="highlight"><b>Saturday</b></td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td>Mat</td>
+          <td colspan="3">SEMINAR</td>
+          <td class="special">SPORTS</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>You can reach me via email: <a href="mailto:msaidg54@gmail.com">msaidg54@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2025</span> Mohamed Saeed. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
