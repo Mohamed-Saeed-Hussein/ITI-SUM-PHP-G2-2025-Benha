@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Project 1: A small UI to add and reset items in a list using DOM methods." />
+    <title>Project 1 - Add Items to a List</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <h1>Project 1: Add Items to a List</h1>
+        <p><a href="index.html">← Back to Labs</a></p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card" aria-labelledby="list-title">
+        <h2 id="list-title" class="sr-only">Add Items</h2>
+        <label for="itemInput" class="visually-hidden">Item text</label>
+        <div class="form-row">
+          <input id="itemInput" type="text" placeholder="Type an item" />
+          <button id="addItemBtn">Add</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <ul id="itemsList" class="items-list" aria-live="polite"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container"><small>Project 1 — interactive list</small></div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
